@@ -1,11 +1,12 @@
-DelphiXE4-Mavericks-Codesign-Helper
-===================================
+# DelphiXE4-Mavericks-Codesign-Helper #
 
 Small command line utitlity that calls the codesign tool with the --deep option, which is needed on Mavericks.
 
 ## Why? ##
 
-If you want to compile and sign a Firemonkey application from Delphi-XE4 it fails, because the --deep option is missing. So I wrote this tool as a "replacement" for the original codesign tool.
+If you want to compile and sign a Firemonkey application from Delphi-XE4 it fails, because the --deep option is missing. The codesign command only generates the error <code>code object is not signed at all</code> 
+
+So I wrote this tool as a "replacement" for the original codesign tool.
 
 ## How? ##
 
